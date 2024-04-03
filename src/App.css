@@ -1,38 +1,200 @@
-.App {
+Header {
+  display: flex;
+  background-color: rgb(197, 15, 100);
+  color: wheat;
+  width: 100%;
+  height: 620px;
+  padding: 100px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bolder;
+  font-size: 70px;
+}
+
+.btnnav {
+  color: black;
+  padding: 5px;
+
+}
+
+Footer {
+  font-size: 40px;
   text-align: center;
+  padding: 10px;
+  background-color: #0a0a0a;
+  color: #f5f4ee;
+  padding: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bar {
+  background-color: black;
+  color: white;
+  padding: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.avatar {
+  display: flex;
+  position: relative;
+  left: 1080px;
+  color: azure;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+section {
+  width: 100%;
+  padding: 80px;
+  min-height: calc(100vh - 80px);
+}
+
+
+section .form_data {
+  max-width: 550px;
+  margin: 20px auto;
+  padding: 25px 10px;
+  box-shadow: 0 0 15px 10px #9aa55e;
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.form_heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form_data h1 {
+  font-size: 34px;
+  color: #655d2a;
+}
+
+.form_data p {
+  color: #0a0a0a;
+  font-size: 15px;
+  margin-top: 9px;
+}
+
+.form_data form .form_input input {
+  width: 350px;
+  padding: 11px;
+  border: 1px solid #d4d0d0;
+  border-radius: 5px;
+  outline: none;
+  margin-bottom: 14px;
+  margin-top: 9px;
+  font-size: 14px;
+  display: flex;
+
+}
+
+.form_data form .form_input label {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.form_input .two {
+
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+
+
+
+form .btn {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background-color: #555d1a;
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+form .btn:hover {
+  background-color: #97a1b1;
+}
+
+.link {
+  font-size: 18px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 15px;
+}
+
+.form_input .showpass {
+  position: absolute;
+  right: 0;
+  top: 1px;
+  padding: 7px 10px;
+  margin-right: 5px;
+  margin-top: 12px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #2a4365;
+  background-color: #EDF2F7;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+h4 {
+  text-align: center;
+  padding: 25px;
+  background-color: #2a4365;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+.filter{
+  /* box-shadow: 0 0 6px grey; */
+  padding:15px 20px;
+  border-radius: 15px;
+  border: 5px,solid;
+  box-shadow: 0px 0px 6px black;
+  margin-top: 5px;
+}
+.Brand{
+  background-color: #2a4365;
+  margin:5px;
+  padding:15px;
+  color: wheat;
+  font-size: 25px;
+  text-align: center;
+  font-family:"Verdana, Geneva, Tahoma, sans-serif";
+  border-radius:10px;
+}
+.form_input input{
+  width: 470px;
+  padding: 11px;
+  border: 1px solid #d4d0d0;
+  border-radius: 5px;
+  outline: none;
+  margin-bottom: 14px;
+  margin-top: 9px;
+  font-size: 14px;
+  display: flex;
+
+}
+.form_input input{
+  border: 1px,solid, rgb(67, 67, 105);
+}
+.analytics{
+  margin-top: 10px;
+  margin-left:5px;
+  box-shadow: 0px 0px 6px black;
+  width:99%;
+  border-radius:25px;
+  height:610px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.transbtn {
+  position: relative;
+  left: 850px;
+  border-radius:10px;
 }
